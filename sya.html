@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect on Play</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #f0f0f0;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        p {
+          font-size: 19px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Tekan tombol Play untuk Lanjut Sayangg!!</h2>
+    <p>Jangan Lupa Aktifkan "Situs Deskop" cil</p>
+    <button onclick="redirectToMainPage()">Play</button>
+
+    <script>
+        function redirectToMainPage() {
+            // Ganti 'main.html' dengan nama file atau URL yang ingin dituju
+            window.location.href = "utama/index.html";
+        }
+    </script>
+
+</body>
+</html>
